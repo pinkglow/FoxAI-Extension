@@ -1,0 +1,62 @@
+{
+  "confirms": [
+    {"type": "copy", "title": "Copier", "icon": "doc.on.doc.svg"},
+    {"type": "longer", "title": "Rendre plus long", "icon": "increase.quotelevel.svg"},
+    {"type":"continueWriting", "title": "Continuer à écrire", "icon": "highlighter.svg"},
+    {"type": "hr", "title": " "},
+    {"type": "tryAgain", "title": "Essayer de nouveau", "icon": "arrow.clockwise.svg"},
+    {"type": "discard", "title": "Jeter", "icon": "trash.svg"}
+  ],
+  "popup": [
+    {"type": "hr", "title": "Modifier ou revoir la sélection"},
+    {"type": "improveWriting", "title": "Améliorer l'écriture", "icon": "pencil.svg"},
+    {"type":"continueWriting", "title": "Continuer à écrire", "icon": "highlighter.svg"},
+    {"type": "fixSpellingGrammar", "title":"Corriger l'orthographe et la grammaire", "icon": "wand.and.stars.svg"},
+    {"type": "shorter", "title": "Rendre plus court", "icon": "decrease.quotelevel.svg"},
+    {"type": "longer", "title": "Rendre plus long", "icon": "increase.quotelevel.svg"},
+    {"type": "hr", "title": "Générer à partir de la sélection"},
+    {"type": "list", "title": "Traduire", "icon": "globe.svg", "list":[
+      {"type": "Chinese", "title": "Chinois"},
+      {"type": "English", "title": "Anglais"},
+      {"type": "Spanish", "title": "Espagnol"},
+      {"type": "Russian", "title": "Russe"},
+      {"type": "French", "title": "Français"},
+      {"type": "German", "title": "Allemand"},
+      {"type": "Korean", "title": "Coréen"},
+      {"type": "Japanese", "title": "Japonais"},
+      {"type": "Italian", "title": "Italien"}
+    ]},
+    {"type": "explainThis", "title": "Expliquer cela", "icon": "questionmark.circle.svg"},
+    {"type": "summarize", "title":"Résumer", "icon": "list.number.svg"}
+  ],
+  "panel": {
+    "placeholder": "Demandez à l'IA d'éditer ou de générer..."
+  },
+  "setting": {
+    "menu": [
+      { "key": "1" , "label": "Clé API Gemini", "link": "/" },
+      { "key": "2" , "label": "Langues", "link": "/languages" }
+    ],
+    "lang": {
+      "title1": "Langue de l'interface",
+      "title2": "Langue de réponse de l'IA",
+      "label": "Choisissez la langue préférée de l'interface utilisateur de l'extension.",
+      "label1desc": "Voir tout le texte de l'interface dans la langue choisie.",
+      "trans": "Traduction",
+      "transDesc": "Sélectionnez la langue cible dans la traduction rapide.",
+      "transDesc2": "Par défaut, c'est la langue de l'interface ci-dessus."
+    },
+    "gemini": {
+      "labelObtain": "Obtenez votre clé API Gemini",
+      "get": "Obtenir",
+      "step1": "Aller à",
+      "step2": "Acceptez les conditions d'utilisation.",
+      "step3": "Cliquez sur Clé API",
+      "step4": "Créez une clé API dans un nouveau projet ou un projet existant. ",
+      "step5": "Copiez la clé API et collez-la ici.",
+      "tipsLabel": "Conseils",
+      "tips1": "Votre clé API est stockée en toute sécurité dans votre navigateur, jamais partagée ailleurs.",
+      "tips2": "Vous pouvez changer l'hôte pour votre propre serveur Gemini."
+    }
+  }
+}

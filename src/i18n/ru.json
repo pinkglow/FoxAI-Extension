@@ -1,0 +1,68 @@
+{
+  "confirms": [
+    {"type": "copy", "title": "Копировать", "icon": "doc.on.doc.svg"},
+    {"type": "longer", "title": "Сделать длиннее", "icon": "increase.quotelevel.svg"},
+    {"type":"continueWriting", "title": "Продолжить письмо", "icon": "highlighter.svg"},
+    {"type": "hr", "title": " "},
+    {"type": "tryAgain", "title": "Попробовать снова", "icon": "arrow.clockwise.svg"},
+    {"type": "discard", "title": "Отменить", "icon": "trash.svg"}
+  ],
+  "popup": [
+    {"type": "hr", "title": "Редактировать или проверить выбор"},
+    {"type": "improveWriting", "title": "Улучшить написание", "icon": "pencil.svg"},
+    {"type":"continueWriting", "title": "Продолжить письмо", "icon": "highlighter.svg"},
+    {"type": "fixSpellingGrammar", "title":"Исправить орфографию и грамматику", "icon": "wand.and.stars.svg"},
+    {"type": "shorter", "title": "Сделать короче", "icon": "decrease.quotelevel.svg"},
+    {"type": "longer", "title": "Сделать длиннее", "icon": "increase.quotelevel.svg"},
+    {"type": "hr", "title": "Генерировать из выбранного"},
+    {"type": "list", "title": "Перевести", "icon": "globe.svg", "list":[
+      {"type": "Chinese", "title": "Китайский"},
+      {"type": "English", "title": "Английский"},
+      {"type": "Spanish", "title": "Испанский"},
+      {"type": "Russian", "title": "Русский"},
+      {"type": "French", "title": "Французский"},
+      {"type": "German", "title": "Немецкий"},
+      {"type": "Korean", "title": "Корейский"},
+      {"type": "Japanese", "title": "Японский"},
+      {"type": "Italian", "title": "Итальянский"}
+    ]},
+    {"type": "explainThis", "title": "Объяснить это", "icon": "questionmark.circle.svg"},
+    {"type": "summarize", "title":"Суммировать", "icon": "list.number.svg"}
+  ],
+  "panel": {
+    "placeholder": "Попросите AI отредактировать или сгенерировать..."
+  },
+  "setting": {
+    "menu": [
+      { "key": "1" , "label": "Ключ API Gemini", "link": "/" },
+      { "key": "2" , "label": "Языки", "link": "/languages" }
+    ],
+    "lang": {
+      "title1": "Язык интерфейса",
+      "title2": "Язык ответа AI",
+      "label": "Выберите предпочтительный язык пользовательского интерфейса расширения.",
+      "label1desc": "Просмотрите все тексты интерфейса на выбранном вами языке.",
+      "trans": "Перевод",
+      "transDesc": "Выберите целевой язык для быстрого перевода.",
+      "transDesc2": "По умолчанию используется язык вышеуказанного интерфейса."
+    },
+    "gemini": {
+      "labelObtain": "Получить ваш ключ API Gemini",
+      "get": "Получить",
+      "step1": "Перейти на",
+      "step2": "Согласиться с условиями обслуживания.",
+      "step3": "Нажмите на \"API Key\".",
+      "step4": "Создайте ключ API в новом или существующем проекте.",
+      "step5": "Скопируйте ключ API и вставьте его здесь.",
+      "tipsLabel": "Советы",
+      "tips1": "Ваш ключ API безопасно хранится в вашем браузере, он никогда не передается в другие места.",
+      "tips2": "Вы можете изменить хост на свой собственный сервер Gemini."
+    }
+  }
+}
+
+
+
+
+
+

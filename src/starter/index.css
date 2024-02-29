@@ -1,0 +1,11 @@
+.foxai-starter .logo-container svg {
+  transition: transform 0.35s ease-in;
+}
+
+.foxai-starter .logo-container svg:hover {
+  transform: rotate(360deg);
+}
+
+.foxai-starter .starter-logo {
+  box-shadow: 0 0 4px rgba(0,0,0, 0.25);
+}

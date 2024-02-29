@@ -1,0 +1,92 @@
+/* 这里注入 TailwindCSS */
+
+@tailwind utilities;
+
+ul {
+  margin: 0 0;
+}
+
+
+#foxai-wrapper {
+  --black: #1d1d1f;
+  --bg-primary: #f5f5f7;
+  --gray-primary: #f2f2f2;
+  --gray-text: #515154;
+  --primary: #8129d9;
+  --blue: #0071e3;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+
+*,
+:before,
+:after {
+  box-sizing: inherit
+}
+
+body {
+  margin: 0;
+  padding: 0
+}
+
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+p,
+blockquote,
+figure,
+form,
+fieldset,
+input,
+legend,
+pre,
+abbr,
+button {
+  margin: 0;
+  padding: 0
+}
+
+.foxai-shadow {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.35);
+}
+
+
+.foxai-scroll::-webkit-scrollbar {
+  width: 5px;
+  /* 改变滚动条宽度 */
+}
+
+/* 滚动条轨道样式 */
+.foxai-scroll::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #FFF;
+  /* 轨道背景颜色 */
+}
+
+/* 滚动条样式 */
+.foxai-scroll::-webkit-scrollbar-thumb {
+  background: #96969674;
+  /* 滚动条颜色 */
+  border-radius: 10px;
+  height: 10px;
+}
+
+.hr:not(:first-of-type) {
+  margin-top: 6px;
+  padding-top: 2px;
+  border-top: 1px solid rgb(242 235 235 / 59%)
+}
+
+

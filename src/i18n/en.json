@@ -1,0 +1,62 @@
+{
+  "confirms": [
+      {"type": "copy", "title": "Copy", "icon": "doc.on.doc.svg"},
+      {"type": "longer", "title": "Make longer", "icon": "increase.quotelevel.svg"},
+      {"type":"continueWriting", "title": "Continue Writing", "icon": "highlighter.svg"},
+      {"type": "hr", "title": " "},
+      {"type": "tryAgain", "title": "Try again", "icon": "arrow.clockwise.svg"},
+      {"type": "discard", "title": "Discard", "icon": "trash.svg"}
+    ],
+  "popup": [
+      {"type": "hr", "title": "Edit or review selection"},
+      {"type": "improveWriting", "title": "Improve writing", "icon": "pencil.svg"},
+      {"type":"continueWriting", "title": "Continue Writing", "icon": "highlighter.svg"},
+      {"type": "fixSpellingGrammar", "title":"Fix spelling & grammar", "icon": "wand.and.stars.svg"},
+      {"type": "shorter", "title": "Make shorter", "icon": "decrease.quotelevel.svg"},
+      {"type": "longer", "title": "Make longer", "icon": "increase.quotelevel.svg"},
+      {"type": "hr", "title": "Generate from selection"},
+      {"type": "list", "title": "Translate", "icon": "globe.svg", "list":[
+        {"type": "Chinese", "title": "Chinese"},
+        {"type": "English", "title": "English"},
+        {"type": "Spanish", "title": "Spanish"},
+        {"type": "Russian", "title": "Russian"},
+        {"type": "French", "title": "French"},
+        {"type": "German", "title": "German"},
+        {"type": "Korean", "title": "Korean"},
+        {"type": "Japanese", "title": "Japanese"},
+        {"type": "Italian", "title": "Italian"}
+      ]},
+      {"type": "explainThis", "title": "Explain this", "icon": "questionmark.circle.svg"},
+      {"type": "summarize", "title":"Summarize", "icon": "list.number.svg"}
+    ],
+    "panel": {
+      "placeholder": "Ask AI to edit or generate..."
+    },
+    "setting": {
+      "menu": [
+        { "key": "1" , "label": "Gemini API key", "link": "/" },
+        { "key": "2" , "label": "Languages", "link": "/languages" }
+    ],
+      "lang": {
+        "title1": "Interface language",
+        "title2": "AI response language",
+        "label": "Choose your preferred language of the extension's user interface.",
+        "label1desc": "View all interface text in your chosen language.",
+        "trans": "Translation",
+        "transDesc": "Select the target language in quick translation.",
+        "transDesc2": "Default is the above interface language."
+    },
+      "gemini": {
+        "labelObtain": "Obtain your Gemini API key",
+        "get": "Get",
+        "step1": "Go to",
+        "step2": "Agree the Terms of Service.",
+        "step3": "Click on \"API Key\".",
+        "step4": "Create an API key in a new or existing project. ",
+        "step5": "Copy the API key and paste it here.",
+        "tipsLabel": "Tips",
+        "tips1": "Your API Key is securely stored in your browser, never shared elsewhere.",
+        "tips2": "You can change the host to your own Gemini server."
+      }
+    }
+  }

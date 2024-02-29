@@ -1,0 +1,61 @@
+.panel-control .prompt-input {
+  background-color: white;
+  box-sizing: border-box;
+  -webkit-column-count: auto;
+  cursor: text;
+  letter-spacing: normal;
+  list-style: none;
+  margin: 0;
+  color: #1d1d1d;
+  font-size: 14px;
+  max-height: 120px;
+  min-height: 20px;
+  min-width: 0;
+  overflow-y: hidden;
+  position: relative;
+  resize: none;
+  transition: all .2s;
+  transition: all .2s cubic-bezier(.645, .045, .355, 1);
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.panel-control {
+  border-top: 1px solid #826d6d2b;
+}
+
+.foxai-context .selection {
+  line-height: 15px;
+  display: -webkit-box;
+  max-height: 45px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.foxai-header-answer .panel-answer {
+  line-height: 19px;
+  max-height: 125px;
+}
+
+
+.foxai-header-status .status-text {
+  background: -webkit-linear-gradient(0deg, #be22ff 20%, #ff279c 50%, #ff981f 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rotate-effect {
+  animation: rotation .6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  
+  to {
+    transform: rotate(359deg);
+  }
+}

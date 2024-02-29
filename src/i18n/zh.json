@@ -1,0 +1,62 @@
+{
+  "confirms": [
+    {"type": "copy", "title": "复制", "icon": "doc.on.doc.svg"},
+    {"type": "longer", "title": "扩展内容", "icon": "increase.quotelevel.svg"},
+    {"type":"continueWriting", "title": "继续写作", "icon": "highlighter.svg"},
+    {"type": "hr", "title": " "},
+    {"type": "tryAgain", "title": "重试", "icon": "arrow.clockwise.svg"},
+    {"type": "discard", "title": "丢弃", "icon": "trash.svg"}
+  ],
+  "popup": [
+    {"type": "hr", "title": "编辑或查看选择项"},
+    {"type": "improveWriting", "title": "改善写作", "icon": "pencil.svg"},
+    {"type":"continueWriting", "title": "继续写作", "icon": "highlighter.svg"},
+    {"type": "fixSpellingGrammar", "title":"修正拼写和语法", "icon": "wand.and.stars.svg"},
+    {"type": "shorter", "title": "缩短内容", "icon": "decrease.quotelevel.svg"},
+    {"type": "longer", "title": "扩展内容", "icon": "increase.quotelevel.svg"},
+    {"type": "hr", "title": "选择生成"},
+    {"type": "list", "title": "翻译", "icon": "globe.svg", "list":[
+      {"type": "Chinese", "title": "中文"},
+      {"type": "English", "title": "英语"},
+      {"type": "Spanish", "title": "西班牙语"},
+      {"type": "Russian", "title": "俄语"},
+      {"type": "French", "title": "法语"},
+      {"type": "German", "title": "德语"},
+      {"type": "Korean", "title": "韩语"},
+      {"type": "Japanese", "title": "日语"},
+      {"type": "Italian", "title": "意大利语"}
+    ]},
+    {"type": "explainThis", "title": "解释这个", "icon": "questionmark.circle.svg"},
+    {"type": "summarize", "title":"总结", "icon": "list.number.svg"}
+  ],
+  "panel": {
+    "placeholder": "让AI进行编辑或生成..."
+  },
+  "setting": {
+    "menu": [
+      { "key": "1" , "label": "Gemini设置", "link": "/" },
+      { "key": "2" , "label": "语言设置", "link": "/languages" }
+    ],
+    "lang": {
+      "title1": "界面语言",
+      "title2": "AI回应语言",
+      "label": "选择扩展用户界面的首选语言。",
+      "label1desc": "以你所选择的语言查看所有界面文本。",
+      "trans": "翻译",
+      "transDesc": "设置快速翻译中的目标语言。",
+      "transDesc2": "默认为上面的的界面语言。"
+    },
+    "gemini": {
+      "labelObtain": "获取你的Gemini API密钥",
+      "get": "获取",
+      "step1": "前往",
+      "step2": "同意服务条款。",
+      "step3": "点击“API密钥”。",
+      "step4": "在新的或已有的项目中创建一个API密钥。",
+      "step5": "复制API密钥并粘贴在此处。",
+      "tipsLabel": "提示",
+      "tips1": "你的API密钥会安全地存储在你的浏览器中，不会被分享到其他地方。",
+      "tips2": "你可以更改主机为你自己的Gemini服务器。"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.admin-container .ant-layout {
+  min-height: 100vh;
+}
+
+.ant-layout-sider {
+  flex: 0 0 272px!important;
+  max-width: 272px!important;
+  min-width: 272px!important;
+  width: 272px!important;
+}
+
+@media screen and (max-width:1200px) {
+  .ant-layout-content {
+    margin: 0 0px!important;
+  }
+}

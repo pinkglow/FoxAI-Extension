@@ -1,0 +1,62 @@
+{
+  "confirms": [
+    {"type": "copy", "title": "Copia", "icon": "doc.on.doc.svg"},
+    {"type": "longer", "title": "Allunga", "icon": "increase.quotelevel.svg"},
+    {"type":"continueWriting", "title": "Continua a scrivere", "icon": "highlighter.svg"},
+    {"type": "hr", "title": " "},
+    {"type": "tryAgain", "title": "Prova ancora", "icon": "arrow.clockwise.svg"},
+    {"type": "discard", "title": "Scarta", "icon": "trash.svg"}
+  ],
+  "popup": [
+    {"type": "hr", "title": "Modifica o rivedi la selezione"},
+    {"type": "improveWriting", "title": "Migliora la scrittura", "icon": "pencil.svg"},
+    {"type":"continueWriting", "title": "Continua a scrivere", "icon": "highlighter.svg"},
+    {"type": "fixSpellingGrammar", "title":"Correggi ortografia e grammatica", "icon": "wand.and.stars.svg"},
+    {"type": "shorter", "title": "Rendi più corto", "icon": "decrease.quotelevel.svg"},
+    {"type": "longer", "title": "Allunga", "icon": "increase.quotelevel.svg"},
+    {"type": "hr", "title": "Genera dalla selezione"},
+    {"type": "list", "title": "Traduci", "icon": "globe.svg", "list":[
+      {"type": "Chinese", "title": "Cinese"},
+      {"type": "English", "title": "Inglese"},
+      {"type": "Spanish", "title": "Spagnolo"},
+      {"type": "Russian", "title": "Russo"},
+      {"type": "French", "title": "Francese"},
+      {"type": "German", "title": "Tedesco"},
+      {"type": "Korean", "title": "Coreano"},
+      {"type": "Japanese", "title": "Giapponese"},
+      {"type": "Italian", "title": "Italiano"}
+    ]},
+    {"type": "explainThis", "title": "Spiega questo", "icon": "questionmark.circle.svg"},
+    {"type": "summarize", "title":"Riassumi", "icon": "list.number.svg"}
+  ],
+  "panel": {
+    "placeholder": "Chiedi all'IA di modificare o generare..."
+  },
+  "setting": {
+    "menu": [
+      { "key": "1" , "label": "Chiave API Gemini", "link": "/" },
+      { "key": "2" , "label": "Lingue", "link": "/languages" }
+    ],
+    "lang": {
+      "title1": "Lingua dell'interfaccia",
+      "title2": "Lingua della risposta dell'IA",
+      "label": "Scegli la lingua preferita per l'interfaccia utente dell'estensione.",
+      "label1desc": "Visualizza tutto il testo dell'interfaccia nella tua lingua scelta.",
+      "trans": "Traduzione",
+      "transDesc": "Seleziona la lingua target nella traduzione rapida.",
+      "transDesc2": "Il predefinito è la lingua dell'interfaccia sopra indicata."
+    },
+    "gemini": {
+      "labelObtain": "Ottieni la tua chiave API Gemini",
+      "get": "Ottieni",
+      "step1": "Vai a",
+      "step2": "Accetta i Termini di Servizio.",
+      "step3": "Clicca su \"API Key\".",
+      "step4": "Crea una chiave API in un nuovo progetto o in uno esistente.",
+      "step5": "Copia la chiave API e incollala qui.",
+      "tipsLabel": "Suggerimenti",
+      "tips1": "La tua chiave API è conservata in modo sicuro nel tuo browser, mai condivisa altrove.",
+      "tips2": "Puoi cambiare l'host con il tuo server Gemini."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "confirms": [
+    {"type": "copy", "title": "コピー", "icon": "doc.on.doc.svg"},
+    {"type": "longer", "title": "コンテンツを拡張", "icon": "increase.quotelevel.svg"},
+    {"type":"continueWriting", "title": "執筆を続ける", "icon": "highlighter.svg"},
+    {"type": "hr", "title": " "},
+    {"type": "tryAgain", "title": "再試行", "icon": "arrow.clockwise.svg"},
+    {"type": "discard", "title": "廃棄", "icon": "trash.svg"}
+  ],
+  "popup": [
+    {"type": "hr", "title": "選択項目の編集または表示"},
+    {"type": "improveWriting", "title": "ライティングを改善", "icon": "pencil.svg"},
+    {"type":"continueWriting", "title": "執筆を続ける", "icon": "highlighter.svg"},
+    {"type": "fixSpellingGrammar", "title":"スペルと文法を修正する", "icon": "wand.and.stars.svg"},
+    {"type": "shorter", "title": "コンテンツを短縮", "icon": "decrease.quotelevel.svg"},
+    {"type": "longer", "title": "コンテンツを拡張", "icon": "increase.quotelevel.svg"},
+    {"type": "hr", "title": "生成を選択"},
+    {"type": "list", "title": "翻訳", "icon": "globe.svg", "list":[
+      {"type": "Chinese", "title": "中国語"},
+      {"type": "English", "title": "英語"},
+      {"type": "Spanish", "title": "スペイン語"},
+      {"type": "Russian", "title": "ロシア語"},
+      {"type": "French", "title": "フランス語"},
+      {"type": "German", "title": "ドイツ語"},
+      {"type": "Korean", "title": "韓国語"},
+      {"type": "Japanese", "title": "日本語"},
+      {"type": "Italian", "title": "イタリア語"}
+    ]},
+    {"type": "explainThis", "title": "これを説明する", "icon": "questionmark.circle.svg"},
+    {"type": "summarize", "title":"要約", "icon": "list.number.svg"}
+  ],
+  "panel": {
+    "placeholder": "AIに編集や生成を任せましょう..."
+  },
+  "setting": {
+    "menu": [
+      { "key": "1" , "label": "Geminiの設定", "link": "/" },
+      { "key": "2" , "label": "言語設定", "link": "/languages" }
+    ],
+    "lang": {
+      "title1": "インターフェースの言語",
+      "title2": "AIの応答言語",
+      "label": "ユーザーインターフェースを拡張するための優先言語を選択します。",
+      "label1desc": "選んだ言語で全てのインターフェーステキストを表示します。",
+      "trans": "翻訳",
+      "transDesc": "クイック翻訳のターゲット言語を設定します。",
+      "transDesc2": "デフォルトは上記のインターフェース言語です。"
+    },
+    "gemini": {
+      "labelObtain": "あなたのGemini APIキーを取得",
+      "get": "取得",
+      "step1": "進む",
+      "step2": "利用規約に同意する。",
+      "step3": "「APIキー」をクリックする。",
+      "step4": "新しいプロジェクトまたは既存のプロジェクトでAPIキーを作成する。",
+      "step5": "APIキーをコピーしてここに貼り付ける。",
+      "tipsLabel": "ヒント",
+      "tips1": "あなたのAPIキーは安全にブラウザに保存され、他のどこにも共有されません。",
+      "tips2": "主機を自分のGeminiサーバーに変更することが可能です。"
+    }
+  }
+}

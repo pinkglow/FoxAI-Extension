@@ -1,0 +1,62 @@
+{
+  "confirms": [
+    {"type": "copy", "title": "복사", "icon": "doc.on.doc.svg"},
+    {"type": "longer", "title": "내용 확장", "icon": "increase.quotelevel.svg"},
+    {"type":"continueWriting", "title": "계속 작성", "icon": "highlighter.svg"},
+    {"type": "hr", "title": " "},
+    {"type": "tryAgain", "title": "다시 시도", "icon": "arrow.clockwise.svg"},
+    {"type": "discard", "title": "버리기", "icon": "trash.svg"}
+  ],
+  "popup": [
+    {"type": "hr", "title": "편집하거나 선택 항목 보기"},
+    {"type": "improveWriting", "title": "글쓰기 개선", "icon": "pencil.svg"},
+    {"type":"continueWriting", "title": "계속 작성", "icon": "highlighter.svg"},
+    {"type": "fixSpellingGrammar", "title":"철자 및 문법 수정", "icon": "wand.and.stars.svg"},
+    {"type": "shorter", "title": "내용 축소", "icon": "decrease.quotelevel.svg"},
+    {"type": "longer", "title": "내용 확장", "icon": "increase.quotelevel.svg"},
+    {"type": "hr", "title": "생성 선택"},
+    {"type": "list", "title": "번역", "icon": "globe.svg", "list":[
+      {"type": "Chinese", "title": "중국어"},
+      {"type": "English", "title": "영어"},
+      {"type": "Spanish", "title": "스페인어"},
+      {"type": "Russian", "title": "러시아어"},
+      {"type": "French", "title": "프랑스어"},
+      {"type": "German", "title": "독일어"},
+      {"type": "Korean", "title": "한국어"},
+      {"type": "Japanese", "title": "일본어"},
+      {"type": "Italian", "title": "이탈리아어"}
+    ]},
+    {"type": "explainThis", "title": "이것을 설명하다", "icon": "questionmark.circle.svg"},
+    {"type": "summarize", "title":"요약", "icon": "list.number.svg"}
+  ],
+  "panel": {
+    "placeholder": "AI에게 편집 또는 생성을 요청하십시오..."
+  },
+  "setting": {
+    "menu": [
+      { "key": "1" , "label": "Gemini 설정", "link": "/" },
+      { "key": "2" , "label": "언어 설정", "link": "/languages" }
+    ],
+    "lang": {
+      "title1": "인터페이스 언어",
+      "title2": "AI 응답 언어",
+      "label": "사용자 인터페이스의 기본 언어를 선택하십시오.",
+      "label1desc": "모든 인터페이스 텍스트를 선택한 언어로 볼 수 있습니다.",
+      "trans": "번역",
+      "transDesc": "빠른 번역에서 대상 언어를 설정합니다.",
+      "transDesc2": "기본적으로 위의 인터페이스 언어로 설정됩니다."
+    },
+    "gemini": {
+      "labelObtain": "당신의 Gemini API 키를 얻으십시오",
+      "get": "받다",
+      "step1": "가다",
+      "step2": "서비스 약관에 동의하십시오.",
+      "step3": "“API 키”를 클릭하십시오.",
+      "step4": "새로운 또는 기존 프로젝트에서 API 키를 생성하십시오.",
+      "step5": "API 키를 복사하여 여기에 붙여넣으십시오.",
+      "tipsLabel": "팁",
+      "tips1": "API 키는 안전하게 브라우저에 저장되며 다른 곳에 공유되지 않습니다.",
+      "tips2": "주호스트를 자신의 Gemini 서버로 변경할 수 있습니다."
+    }
+  }
+}

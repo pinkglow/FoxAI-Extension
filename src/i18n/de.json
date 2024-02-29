@@ -1,0 +1,62 @@
+{
+  "confirms": [
+    {"type": "copy", "title": "Kopieren", "icon": "doc.on.doc.svg"},
+    {"type": "longer", "title": "Verlängern", "icon": "increase.quotelevel.svg"},
+    {"type":"continueWriting", "title": "Weiterschreiben", "icon": "highlighter.svg"},
+    {"type": "hr", "title": " "},
+    {"type": "tryAgain", "title": "Erneut versuchen", "icon": "arrow.clockwise.svg"},
+    {"type": "discard", "title": "Verwerfen", "icon": "trash.svg"}
+  ],
+  "popup": [
+    {"type": "hr", "title": "Auswahl bearbeiten oder überprüfen"},
+    {"type": "improveWriting", "title": "Schreibstil verbessern", "icon": "pencil.svg"},
+    {"type":"continueWriting", "title": "Weiterschreiben", "icon": "highlighter.svg"},
+    {"type": "fixSpellingGrammar", "title":"Rechtschreibung & Grammatik korrigieren", "icon": "wand.and.stars.svg"},
+    {"type": "shorter", "title": "Verkürzen", "icon": "decrease.quotelevel.svg"},
+    {"type": "longer", "title": "Verlängern", "icon": "increase.quotelevel.svg"},
+    {"type": "hr", "title": "Generieren aus Auswahl"},
+    {"type": "list", "title": "Übersetzen", "icon": "globe.svg", "list":[
+      {"type": "Chinese", "title": "Chinesisch"},
+      {"type": "English", "title": "Englisch"},
+      {"type": "Spanish", "title": "Spanisch"},
+      {"type": "Russian", "title": "Russisch"},
+      {"type": "French", "title": "Französisch"},
+      {"type": "German", "title": "Deutsch"},
+      {"type": "Korean", "title": "Koreanisch"},
+      {"type": "Japanese", "title": "Japanisch"},
+      {"type": "Italian", "title": "Italienisch"}
+    ]},
+    {"type": "explainThis", "title": "Das erklären", "icon": "questionmark.circle.svg"},
+    {"type": "summarize", "title":"Zusammenfassen", "icon": "list.number.svg"}
+  ],
+  "panel": {
+    "placeholder": "AI bitten, zu bearbeiten oder zu generieren..."
+  },
+  "setting": {
+    "menu": [
+      { "key": "1" , "label": "Gemini API-Schlüssel", "link": "/" },
+      { "key": "2" , "label": "Sprachen", "link": "/languages" }
+    ],
+    "lang": {
+      "title1": "Oberflächensprache",
+      "title2": "AI Antwort Sprache",
+      "label": "Wählen Sie Ihre bevorzugte Sprache für die Benutzeroberfläche der Erweiterung.",
+      "label1desc": "Sehen Sie sich den gesamten Interfacetext in Ihrer ausgewählten Sprache an.",
+      "trans": "Übersetzung",
+      "transDesc": "Wählen Sie die Zielsprache bei der Schnellübersetzung.",
+      "transDesc2": "Standardmäßig ist die obige Oberflächensprache."
+    },
+    "gemini": {
+      "labelObtain": "Erhalten Sie Ihren Gemini-API-Schlüssel",
+      "get": "Holen",
+      "step1": "Gehen zu",
+      "step2": "Stimmen Sie den Nutzungsbedingungen zu.",
+      "step3": "Klicken Sie auf \"API-Schlüssel\".",
+      "step4": "Erstellen Sie einen API-Schlüssel in einem neuen oder bestehenden Projekt. ",
+      "step5": "Kopieren Sie den API-Schlüssel und fügen Sie ihn hier ein.",
+      "tipsLabel": "Tipps",
+      "tips1": "Ihr API-Schlüssel wird sicher in Ihrem Browser gespeichert, niemals an anderer Stelle geteilt.",
+      "tips2": "Sie können den Host auf Ihren eigenen Gemini-Server ändern."
+    }
+  }
+}
