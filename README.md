@@ -14,7 +14,7 @@
 
 ## 📷 Screenshot
 
-![Screenshot](screenshots/extension.png?raw=true)
+![Screenshot](screenshots/chrome-extension.png?raw=true)
 
 ## ✨ Features
 
