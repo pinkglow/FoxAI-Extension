@@ -19,7 +19,7 @@
 ## ✨ Features
 
 - 🆓 Free use of all Gemini based features.
-- 🚀 Write emails & messages, fix grammar mistakes, rephrase text, summarize text, translation and much more using Gemini or ChatGPT AI. Works on all sites. 
+- 🚀 Write emails & messages, fix grammar mistakes, rephrase text, summarize text, translation and much more using Gemini or ChatGPT AI. Works on all sites.
 - 🚀 Allow the use of custom prompts.
 - 🎨 Markdown and code highlight support.
 - 🌐 Multi-Language Support.
