@@ -2,7 +2,7 @@
     <img src="./public/icon.png" width="150">
 </p>
 
-<h1 align="center">ChatHub</h1>
+<h1 align="center">FoxAI.me</h1>
 
 <div align="center">
 
