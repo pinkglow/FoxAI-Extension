@@ -32,9 +32,9 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["js/web_accessible_resources.js", "css/content_script.css", "images/*", "admin.html"],
+      "resources": ["js/web_accessible_resources.js", "css/content_script.css", "images/*", "admin.html", "guide.html"],
       "matches": ["<all_urls>"]
     }
   ],
-  "permissions": ["storage"]
+  "permissions": ["storage", "tabs"]
 }

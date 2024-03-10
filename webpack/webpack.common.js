@@ -9,6 +9,7 @@ module.exports = {
     entry: {
         // popup: path.join(srcDir, 'popup.js'),
         admin: path.join(srcDir, "admin.js"),
+        guide: path.join(srcDir, "guide.js"),
         options: path.join(srcDir, 'options.js'),
         background: path.join(srcDir, 'background.js'),
         content_script: path.join(srcDir, 'content_script.js'),
